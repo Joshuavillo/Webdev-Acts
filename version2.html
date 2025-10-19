@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Activity 2 Ver. 2</title>
+        <style>
+        body
+        {
+            margin: 0;
+            align-items: center;
+            background-image: url("https://lh3.googleusercontent.com/d/1vHsihaaGM6JfWp2M4AWww1yCZfgc7e7m");
+            background-size: cover;
+        }
+        #main-div
+        {
+            width: 25%;
+            max-width: 400px;
+            min-width: 320px;
+            margin: auto;
+            background: rgba(255,255,255,0.25);
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            margin-top: 40px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            height: auto;
+            backdrop-filter: blur(1px);
+            background-image: url("https://i.gifer.com/5WWU.gif");
+            background-size: cover;
+        }
+        #header
+        {
+            text-align: center;
+        }
+        label
+        {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            font-size: 18px;
+            
+            
+        }
+        input
+        {
+            padding: 10px;
+            border-radius: 10px;
+            background-color:   rgba(213, 228, 253, 0.486);
+            border-spacing: 10px;
+            border: 3px solid rgb(255, 255, 255);
+            outline: none;
+        } 
+        input[type="submit"] {
+            background-color: #a8c3df8f;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-right: 10px;
+            width: 130px;
+        }
+        input[type="reset"] {
+            background-color: #a8c3df8f;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            width: 130px;
+        }
+
+        select
+        {
+           padding:10px; 
+           border-radius:10px; 
+           width:56%;
+           background-color: rgba(197, 218, 253, 0.486);
+           border: 3px solid rgb(255, 255, 255);
+            outline: none;  
+        }
+        option
+        {
+            text-align: center;
+        }
+        .hr
+        {
+            border: 2px solid rgba(197, 218, 253, 0.726);
+            margin-bottom: 20px;
+        }
+        ::placeholder
+        {
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.685);
+        }
+        
+</style>
+</head>
+<body>
+    <div id="main-div">
+       
+
+
+        <h2 id="header">User Profile</h2>
+        <hr class="hr">
+        <form>
+        <label for="name">Name:</label>
+		<input type="text" name="name" placeholder="Enter Name" id="name"><br><br><br>
+
+        <label for="address">Address:</label>
+		<input type="text" name="address" placeholder="Enter Address" id="address"><br><br><br>
+
+        <label for="mobile-no">Mobile No.:</label>
+		<input type="text" name="mobile-no" placeholder="Enter Mobile Number" id="mobile-no"><br><br><br>
+
+        <label for="gender">Gender:</label>
+		<select name="gender" id="gender" >
+		<option value="male">Male</option>
+        <option value="female">Female</option></select><br><br><br> 
+
+        <label for="age">Age:</label>
+        <select name="age" id="age">
+		<option value="below18">Below 18</option>
+        <option value="18-30">18-30</option>
+        <option value="30-50">30-50</option>
+        <option value="50-80">50-80</option>
+        <option value="80+">80 and above</option></select><br><br><br>
+      
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+      
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Activity 2 Ver.1</title>
+        <style>
+        body
+        {
+            margin: 0;
+            align-items: center;
+            background-image: url("https://lh3.googleusercontent.com/d/1vwsvqEr8AdNF-RXK48XXo4dCNJk6cAQa=s800");
+            background-size: cover;
+            
+        }
+        #main-div
+        {
+           width: 25%;
+           max-width: 400px;
+           min-width: 320px;
+           margin: auto;
+           background: rgba(255, 240, 245, 0.582);
+           padding: 20px;
+           margin-bottom: 10px;
+           border: 1px solid #ddd;
+           border-radius: 20px;
+           margin-top: 100px;
+           text-align: center;
+           box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+           background-image: url("https://i.gifer.com/2yqT.gif");
+           background-size: cover;
+        }
+        #header
+        {
+            text-align: center;
+        }
+        label
+        {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        input
+        {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 209, 225, 0.432);
+            border: 3px solid rgba(204, 88, 169, 0.295);
+            outline: none;
+        }
+        input[type="submit"] {
+            background-color: #e2a8c879;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-right: 10px;
+            width: 130px;
+        }
+        input[type="reset"] {
+            background-color:  #e2a8c879;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 14px;
+            width: 130px;
+        }
+        .hr
+        {
+            border: 2px solid rgba(204, 88, 169, 0.295);
+            margin-bottom: 20px;
+        }
+        ::placeholder
+        {
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.658);
+        }
+</style>
+</head>
+<body>
+    <div id="main-div">
+        <h2 id="header">User Profile</h2>
+        <hr class="hr">
+        <form>
+        <label for="name">Name:</label>
+		<input type="text" name="name" placeholder="Enter Name" id="name"><br><br><br>
+
+        <label for="address">Address:</label>
+		<input type="text" name="address" placeholder="Enter Address" id="address"><br><br><br>
+
+        <label for="mobile-no">Mobile No.:</label>
+		<input type="text" name="mobile-no" placeholder="Enter Mobile Number" id="mobile-no"><br><br><br>
+
+        <label for="gender">Gender:</label>
+		<input type="text" name="gender" placeholder="Enter Gender" id="gender"><br><br><br>
+
+        <label for="age">Age:</label>
+		<input type="text" name="age" placeholder="Enter Age" id="age"><br><br><br>
+        
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+    </form>
+</div>
+</body>
+</html>
